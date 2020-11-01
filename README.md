@@ -10,18 +10,18 @@ git clone https://github.com/mengjinfeng0331/cs7641-a3
 pip install requirements.txt
 
 
-## run random optimization gridsearch
-./run_opt_tune.sh
+## run Clustering 
+python3 kmeans.py
+python3 EM.py
 
-## run random optimization test
-./run_opt_test.sh
+## run dimension reduction
+python3 PCA.py
+python3 ICA.py
+python3 RP.py
+python3 RFE.py
 
+## run Neural network
+python3 NN.py
 
-## run NN weight optimization gridsearch
-./run_NN-gridsearch.sh
-
-## run NN weight optimization test
-./run_NN_test.sh
-
-
-## results would be in folder "results"
+## run Neuarl network for part5
+python3 part5.py
